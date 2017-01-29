@@ -17,6 +17,8 @@
  * otherwise continue with next instruction
  * '[' jump to instruction after ']' if byte at pointer is zero
  * otherwise continue with next instruction
+ * Copy Right: Free as in free AIR
+ *
  */
  
  /** tokenize
@@ -70,7 +72,7 @@
   }
   
   token *tokenize(char *src){
-      printf("%s\n", src);
+
 	  char *wsrc;
 	  token *tk_list = malloc(ARRAY_MAX * sizeof(token));
 	  int idx = 0;
